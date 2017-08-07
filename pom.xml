@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.jsweet.candies.ext</groupId>
 	<artifactId>openpgp</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.3-SNAPSHOT</version>
 	<properties>
 		<jsweet.transpiler.version>2.0.0</jsweet.transpiler.version>
 	</properties>
@@ -46,7 +46,7 @@
 			<groupId>org.jsweet.candies</groupId>
 			<artifactId>es6-promise</artifactId>
 			<version>0.0.0-1.1.0-20160525</version>
-		</dependency>
+		</dependency> 
 	</dependencies>
 	<build>
 		<sourceDirectory>src/main/java</sourceDirectory>
@@ -76,7 +76,7 @@
 					<bundle>true</bundle>
 					<outDir>src/main/resources/META-INF/resources/typings/${project.artifactId}/${project.version}/sources</outDir>
 					<tsOut>src/main/resources/META-INF/resources/typings/${project.artifactId}/${project.version}/sources</tsOut>
-					<targetVersion>ES6</targetVersion>
+					<targetVersion>ES5</targetVersion>
 				</configuration>
 				<executions>
 					<execution>

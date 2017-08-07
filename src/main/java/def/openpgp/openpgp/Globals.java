@@ -1,7 +1,6 @@
 package def.openpgp.openpgp;
-import def.es6_promise.Promise;
 public final class Globals {
-    native public static Promise<CipherText> encrypt(Options options);
-    native public static Promise<PlainText> decrypt(Options options);
+    native public static def.js.Promise<CipherText> encrypt(Options options);
+    native public static def.js.Promise<PlainText> decrypt(Options options);
 }
 
