@@ -3,7 +3,7 @@ import def.js.Array;
 @jsweet.lang.Interface
 public abstract class Options extends def.js.Object {
 	@jsweet.lang.Optional
-    public String data;
+    public Object data;
     @jsweet.lang.Optional
     public Array<def.openpgp.openpgp.key.Key> publicKeys;
     @jsweet.lang.Optional
